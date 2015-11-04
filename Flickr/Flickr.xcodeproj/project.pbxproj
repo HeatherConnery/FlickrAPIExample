@@ -15,6 +15,7 @@
 		B6BA18E71BEA57AC0086A6D2 /* FlickrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA18E61BEA57AC0086A6D2 /* FlickrTests.swift */; };
 		B6BA18F21BEA57AC0086A6D2 /* FlickrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA18F11BEA57AC0086A6D2 /* FlickrUITests.swift */; };
 		B6BA19011BEA57E50086A6D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA19001BEA57E50086A6D2 /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		B6BA19041BEA5B850086A6D2 /* Flick_Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA19031BEA5B850086A6D2 /* Flick_Model.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B6BA18F11BEA57AC0086A6D2 /* FlickrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrUITests.swift; sourceTree = "<group>"; };
 		B6BA18F31BEA57AC0086A6D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6BA19001BEA57E50086A6D2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6BA19031BEA5B850086A6D2 /* Flick_Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flick_Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		B6BA18D01BEA57AC0086A6D2 /* Flickr */ = {
 			isa = PBXGroup;
 			children = (
+				B6BA19021BEA5B440086A6D2 /* Model */,
 				B6BA18FF1BEA57C80086A6D2 /* Utils */,
 				B6BA18D11BEA57AC0086A6D2 /* AppDelegate.swift */,
 				B6BA18D31BEA57AC0086A6D2 /* ViewController.swift */,
@@ -134,6 +137,14 @@
 				B6BA19001BEA57E50086A6D2 /* Constants.swift */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		B6BA19021BEA5B440086A6D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6BA19031BEA5B850086A6D2 /* Flick_Model.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6BA18D41BEA57AC0086A6D2 /* ViewController.swift in Sources */,
+				B6BA19041BEA5B850086A6D2 /* Flick_Model.swift in Sources */,
 				B6BA18D21BEA57AC0086A6D2 /* AppDelegate.swift in Sources */,
 				B6BA19011BEA57E50086A6D2 /* Constants.swift in Sources */,
 			);
